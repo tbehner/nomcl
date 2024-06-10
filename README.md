@@ -1,5 +1,5 @@
 # nomcl
-Parser Combinator Library written in and for Clojure. This was heavily inspired by [nom](https://github.com/rust-bakery/nom), but not all functions are yet implemented.
+Parser Combinator Library written in and for Clojure. This was heavily inspired by [nom](https://github.com/rust-bakery/nom), but not all functions are implemented yet.
 
 ## Example
 ```clojure
