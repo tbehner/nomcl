@@ -37,6 +37,9 @@
         (base/result (apply str matching-input) (subvec input (count matching-input)))
         (throw (Exception. (format "expected at least %d, found %d" min (count matching-input))))))))
 
+(defn take [amount]
+  (take-while-m-n amount amount #(true)))
+
 (defn take-while-m [min pred]
   (fn [input]
     (let [matching-input (take-while pred input)]
