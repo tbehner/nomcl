@@ -85,7 +85,6 @@
   (let [[r g b] result]
     {:red r :green g :blue b}))
 
-
 (defn parse-hex [input]
   (->> input
       ((bytes/tag [\#]))
